@@ -1,67 +1,12 @@
-Quantum Harmonic Oscillator Simulation using Qiskit
+**Quantum Harmonic Oscillator Simulation using Qiskit**
+
+
 This project demonstrates the simulation of a Quantum Harmonic Oscillator using the Qiskit framework. The code uses Qiskit to build a quantum circuit that approximates the ground state energy of a simple quantum harmonic oscillator through variational quantum eigensolver (VQE) techniques.
 
 Introduction
 The quantum harmonic oscillator is a fundamental model in quantum mechanics, representing systems such as vibrational modes in molecules and phonons in solids. The Hamiltonian for a quantum harmonic oscillator is typically expressed as:
 
-𝐻
-^
-=
-𝑝
-^
-2
-2
-𝑚
-+
-1
-2
-𝑚
-𝜔
-2
-𝑥
-^
-2
-H
-^
- = 
-2m
-p
-^
-​
-  
-2
- 
-​
- + 
-2
-1
-​
- mω 
-2
-  
-x
-^
-  
-2
- 
 
-where:
-
-𝑝
-^
-p
-^
-​
-  is the momentum operator,
-𝑚
-m is the mass of the particle,
-𝜔
-ω is the angular frequency,
-𝑥
-^
-x
-^
-  is the position operator.
 In this code, we approximate the Hamiltonian using quantum circuits and solve for the ground state energy using a variational approach.
 
 Mathematical Formulation
