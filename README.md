@@ -6,24 +6,25 @@ This project demonstrates the simulation of a Quantum Harmonic Oscillator using 
 Introduction
 The quantum harmonic oscillator is a fundamental model in quantum mechanics, representing systems such as vibrational modes in molecules and phonons in solids. The Hamiltonian for a quantum harmonic oscillator is typically expressed as:
 
+H = (p^2)/2m + (mω^2x^2)/2
 
 where:
 
 𝑝
 ^
-p
-^
+
 ​
   is the momentum operator,
-𝑚
+  
+
 m is the mass of the particle,
-𝜔
+
+
 ω is the angular frequency,
-𝑥
-^
+
+
 x
-^
-  is the position operator.
+^ is the position operator.
 
 In this code, we approximate the Hamiltonian using quantum circuits and solve for the ground state energy using a variational approach.
 
